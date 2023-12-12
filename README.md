@@ -42,11 +42,10 @@ The specific deep learning model used for human detection is loaded from TensorF
 - **Model Type:** Single Shot Multibox Detector (SSD) with MobileNet V2 backbone.
 - **Purpose:** Object detection, particularly for detecting humans in images or video frames.
 
-
 ## Instructions for Cloning the Repository
 
 **Clone the Repository:**
-git clone <repository_url.git>
+git clone https://github.com/AbhayPancholi/Activity_Detection.git
 
 **Navigate to your folder:**
 cd path/to/your/folder
