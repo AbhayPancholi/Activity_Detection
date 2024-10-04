@@ -38,8 +38,8 @@ The `track_count_persons.ipynb` file implements an algorithm for tracking and co
 ## How to Run
 
 1. **Activity Detection**:
-   - Ensure the YOLOv8 model is trained using the `Yolo_v8_on_custom_dataset.ipynb`.
-   - Run the `exp.py` to execute the model on new inputs.
+   - Train the YOLOv8 model using the `Yolo_v8_on_custom_dataset.ipynb`.
+   - Then download the trained model and run the `exp.py` to execute the model on new inputs.
 
 2. **Tracking and Counting**:
    - Open and run the `track_count_persons.ipynb` notebook to track and count detected persons in a given video.
