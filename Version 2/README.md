@@ -5,7 +5,7 @@ This repository contains the implementation of a robust human target detection a
 ## Project Overview
 
 The system consists of two main components:
-1. **Activity Detection**: Utilizing YOLOv8 trained on a custom dataset for detecting human activities.
+1. **Activity Detection**: Utilizing YOLOv8 and Yolov11 trained on a custom dataset for detecting human activities.
 2. **Tracking and Counting**: A custom implementation for tracking and counting detected persons from video input.
 
 Both components are structured into separate modules:
