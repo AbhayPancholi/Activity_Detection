@@ -15,7 +15,8 @@ Both components are structured into separate modules:
 ## File Structure
 
 - Activity_Detection  
-    - Yolo_v8_on_custom_dataset.ipynb   
+    - Yolo_v8_on_custom_dataset.ipynb (old version)
+    - Yolo_v11_for_Activity_Detection.ipynb (updated version)  
     - exp.py                            
 - Tracking_and_Counting/
     - track_count_persons.ipynb    
@@ -25,6 +26,7 @@ Both components are structured into separate modules:
 
 The `Yolo_v8_on_custom_dataset.ipynb` file contains the following:
 - Details of the YOLOv8 model.
+- Details of the YOLOv11 model.
 - Custom dataset preparation.
 - Model training, validation, and evaluation.
 - Visualization of detection results.
@@ -39,6 +41,7 @@ The `track_count_persons.ipynb` file implements an algorithm for tracking and co
 
 1. **Activity Detection**:
    - Train the YOLOv8 model using the `Yolo_v8_on_custom_dataset.ipynb`.
+   - Train the YOLOv11 model using the `Yolo_v11_for_Activity_Detection.ipynb`.
    - Then download the trained model and run the `exp.py` to execute the model on new inputs.
 
 2. **Tracking and Counting**:
