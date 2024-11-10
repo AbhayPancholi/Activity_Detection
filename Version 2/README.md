@@ -52,15 +52,16 @@ The `track_count_persons.ipynb` file implements an algorithm for tracking and co
 The project requires the following dependencies:
 - Python 3.7+
 - OpenCV
-- YOLOv8 (Ultralytics)
+- YOLOv8
+- YOLOv11
 - Numpy
 - Matplotlib
 - PyTorch
 - Deep Sort
   
 ## Results
-The YOLOv8 model is capable of detecting multiple human activities in real-time, while the tracking system efficiently counts the number of persons in video footage, offering robust performance in varied conditions.
+The YOLOv8 and YOLOv11 models are capable of detecting multiple human activities in real-time, while the tracking system efficiently counts the number of persons in video footage, offering robust performance in varied conditions.
 
 ## Future Improvements
-- Enhance tracking accuracy by integrating advanced techniques like Kalman filtering or optical flow.
+- Enhance tracking accuracy by integrating advanced techniques like Kalman filtering and optical flow.
 - Extend the model to detect and track multiple objects apart from human targets.
